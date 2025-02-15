@@ -245,7 +245,7 @@ export default function Landing() {
       {/* Carousel Trabajos / Proyectos */}
       <div className="px-32 py-16" id='TrabajoProyectos'>
         <div className="flex justify-center pb-6">
-          <h1 className="text-3xl">Trabajos / Proyectos</h1>
+          <h1 className="text-3xl shadow-md p-2 rounded-lg">Trabajos / Proyectos</h1>
         </div>
 
         <Carousel opts={{ align: 'start' }} className="w-full">
@@ -276,7 +276,7 @@ export default function Landing() {
                           </div>
                         </div>
                         <div className="flex flex-col mt-10">
-                          <div className="text-blue-500 flex justify-center">
+                          <div className="text-xl flex justify-center">
                             <h2 className="font-semibold">{job[language].rol}</h2>
                           </div>
                           <div className="justify-center flex">
