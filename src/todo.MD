@@ -1,0 +1,3 @@
+- Agregar seccion de trabajo / proyectos: buscar diseño estilo shadCN en internet e incluir mis trabajos previos + copapikachu + cabo frio + forms.consulting.
+- Linkear botones de la navbar a cada seccion con un efecto de scroleo.
+    - para la seccion de Contacto, remarcar la zona donde estan los datos con un fondo gris durante unos segundos, que titile.
