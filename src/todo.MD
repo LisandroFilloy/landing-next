@@ -1,1 +1,0 @@
-- Centrar la parte de Proyectos cuando se la clickea en la navegacion.

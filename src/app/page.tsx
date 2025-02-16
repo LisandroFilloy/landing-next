@@ -243,7 +243,7 @@ export default function Landing() {
       </div>
 
       {/* Carousel Trabajos / Proyectos */}
-      <div className="px-32 py-16" id='TrabajoProyectos'>
+      <div className="px-32 py-16 min-h-[calc(100vh-56px)]" id='TrabajoProyectos'>
         <div className="flex justify-center pb-6">
           <h1 className="text-3xl shadow-md p-2 rounded-lg">Trabajos / Proyectos</h1>
         </div>
