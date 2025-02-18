@@ -174,7 +174,7 @@ const tarjetasTrabajo: Record<string, Record<string, string[]>> = {
 }
 
 export default function Landing() {
-  const [language, setLanguage] = useState<'español' | 'ingles'>('español');
+  const [language, setLanguage] = useState<'español' | 'ingles'>('ingles');
   const [contactoActivo, setContactoActivo] = useState<boolean>(false);
 
   const scrollToSection = (id: string) => {
@@ -245,7 +245,7 @@ export default function Landing() {
       {/* Carousel Trabajos / Proyectos */}
       <div className="px-32 py-16 min-h-[calc(100vh-56px)]" id='TrabajoProyectos'>
         <div className="flex justify-center pb-6">
-          <h1 className="text-3xl shadow-md p-2 rounded-lg">Trabajos / Proyectos</h1>
+          <h1 className="text-3xl shadow-md p-2 rounded-lg">{language === 'español' ? 'Trabajos' : 'My Work'}</h1>
         </div>
 
         <Carousel opts={{ align: 'start' }} className="w-full">
